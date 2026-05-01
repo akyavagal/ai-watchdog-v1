@@ -132,6 +132,37 @@ Click **"Run Simulation"** in the *Incidents* tab to simulate:
 
 ---
 
+## 🧯 Troubleshooting
+
+### ❌ Script execution is disabled
+
+If you see:
+> *"running scripts is disabled on this system"*
+
+Run PowerShell as **Administrator** and execute:
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+```
+
+Then run the app again:
+
+```powershell
+.\Main.ps1
+```
+
+### ❌ Ollama not detected
+
+Ensure Ollama is running:
+
+```powershell
+ollama list
+```
+
+If not, restart Ollama or your system.
+
+---
+
 ## 📄 License
 
 © 2026 AI Watchdog Labs. All rights reserved.
