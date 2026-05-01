@@ -1,0 +1,74 @@
+﻿[
+    {
+        "EventId":  7045,
+        "LogName":  "System",
+        "Host":  "HOST-12",
+        "User":  "SYSTEM",
+        "Timestamp":  "\/Date(1777046778198)\/",
+        "Message":  "New service installed: WinUpdateSync."
+    },
+    {
+        "EventId":  4688,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046775198)\/",
+        "Message":  "powershell.exe -encodedcommand SQBtAHAAbwByAHQ..."
+    },
+    {
+        "EventId":  4672,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046773198)\/",
+        "Message":  "Special privileges assigned to suspicious session."
+    },
+    {
+        "EventId":  4624,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046771198)\/",
+        "Message":  "Successful login after repeated failures."
+    },
+    {
+        "EventId":  4625,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046768198)\/",
+        "Message":  "Failed login attempt 5 from 10.10.1.45"
+    },
+    {
+        "EventId":  4625,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046766198)\/",
+        "Message":  "Failed login attempt 4 from 10.10.1.45"
+    },
+    {
+        "EventId":  4625,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046764198)\/",
+        "Message":  "Failed login attempt 3 from 10.10.1.45"
+    },
+    {
+        "EventId":  4625,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046762198)\/",
+        "Message":  "Failed login attempt 2 from 10.10.1.45"
+    },
+    {
+        "EventId":  4625,
+        "LogName":  "Security",
+        "Host":  "HOST-12",
+        "User":  "schooladmin",
+        "Timestamp":  "\/Date(1777046760198)\/",
+        "Message":  "Failed login attempt 1 from 10.10.1.45"
+    }
+]

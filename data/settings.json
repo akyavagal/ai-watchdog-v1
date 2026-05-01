@@ -1,0 +1,12 @@
+﻿{
+    "Theme":  "Dark",
+    "ScanIntervalSeconds":  30,
+    "AIModel":  "gemma4:e2b",
+    "ApiEndpoint":  "http://localhost:11434",
+    "RetentionDays":  14,
+    "UseLiveEventCollection":  true,
+    "EnableAIMode":  true,
+    "AIProvider":  "Ollama",
+    "AlertThreshold":  5,
+    "EnableTurboMode":  false
+}

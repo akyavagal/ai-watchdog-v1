@@ -1,0 +1,26 @@
+# Ignore built executable files
+build/*.exe
+
+# Ignore auto-generated reports
+reports/*.html
+app/reports/
+
+# Ignore auto-generated execution logs
+data/*.log
+
+# Do NOT ignore the required data configurations and mock events
+!data/mock-events.json
+!data/settings.json
+!data/rules.json
+
+# General Windows/PowerShell ignores
+*.suo
+*.user
+_ReSharper.*/
+bin/
+obj/
+Debug/
+Release/
+*.bak
+*.tmp
+.vs/

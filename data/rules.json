@@ -1,0 +1,95 @@
+﻿[
+    {
+        "Sequence":  [
+                         {
+                             "MinCount":  5,
+                             "EventId":  4625
+                         },
+                         {
+                             "MinCount":  1,
+                             "EventId":  4624
+                         }
+                     ],
+        "RiskScore":  95,
+        "Name":  "Brute Force Success",
+        "Type":  "Sequence",
+        "MitreTags":  "T1110.001 (Brute Force)",
+        "Description":  "Brute force success suspected (Multiple failed logins followed by success)",
+        "RuleId":  "R001",
+        "Severity":  "Critical"
+    },
+    {
+        "RiskScore":  85,
+        "Name":  "Suspicious Encoded PowerShell",
+        "Type":  "Single",
+        "MitreTags":  "T1059.001 (Command and Scripting Interpreter)",
+        "Description":  "Suspicious Encoded PowerShell execution detected",
+        "RuleId":  "R002",
+        "Severity":  "High",
+        "Condition":  {
+                          "EventId":  4688,
+                          "MessageRegex":  [
+                                               "(?i)powershell",
+                                               "(?i)(-enc|-encodedcommand)"
+                                           ]
+                      }
+    },
+    {
+        "RiskScore":  60,
+        "Name":  "Service Persistence",
+        "Type":  "Single",
+        "MitreTags":  "T1543.003 (Create or Modify System Process)",
+        "Description":  "New system service installed (Potential Persistence)",
+        "RuleId":  "R003",
+        "Severity":  "Medium",
+        "Condition":  {
+                          "EventId":  7045
+                      }
+    },
+    {
+        "RiskScore":  75,
+        "Name":  "Scheduled Task Persistence",
+        "Type":  "Single",
+        "MitreTags":  "T1053.005 (Scheduled Task/Job)",
+        "Description":  "New scheduled task created (Potential Persistence)",
+        "RuleId":  "R004",
+        "Severity":  "High",
+        "Condition":  {
+                          "EventId":  4698
+                      }
+    },
+    {
+        "Sequence":  [
+                         {
+                             "MinCount":  1,
+                             "EventId":  4720
+                         },
+                         {
+                             "MinCount":  1,
+                             "EventId":  4732
+                         }
+                     ],
+        "RiskScore":  90,
+        "Name":  "New Admin Account",
+        "Type":  "Sequence",
+        "MitreTags":  "T1136.001 (Create Account: Local Account)",
+        "Description":  "New local administrator account created",
+        "RuleId":  "R005",
+        "Severity":  "Critical"
+    },
+    {
+        "Sequence":  [
+                         {
+                             "MinCount":  3,
+                             "EventId":  4740
+                         }
+                     ],
+        "RiskScore":  50,
+        "Name":  "Account Lockout Attack",
+        "Type":  "Sequence",
+        "MitreTags":  "T1531 (Account Access Removal)",
+        "Description":  "Multiple account lockouts detected (Denial of Service risk)",
+        "RuleId":  "R006",
+        "Severity":  "Medium"
+    }
+]
