@@ -1,8 +1,10 @@
 # 🛡️ AI Watchdog v1.0
+
+
+**AI Watchdog: A Local-First Cybersecurity Assistant Powered by Gemma 4
+Bringing real-time, private cybersecurity intelligence to every organization — regardless of size or resources.**
+
 > **Affordable cybersecurity for every Windows organization.**
-
-AI Watchdog v1.0 is a polished Windows desktop application designed to transform raw Windows Event Logs into clear, actionable security incidents. Built for SMBs, schools, and IT administrators, it delivers a premium **Command Center** experience for threat detection.
-
 ---
 <img width="379" height="369" alt="image" src="https://github.com/user-attachments/assets/ccbd0f1b-c3f8-4692-8d37-f2db50121109" />
 
