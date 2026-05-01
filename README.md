@@ -88,10 +88,6 @@ http://localhost:11434/
 
 Verify service is running:
 
-```powershell
-ollama list
-```
-
 ![Ollama Models](https://github.com/user-attachments/assets/38099632-1b98-477a-a456-3dfb8dd8a3c9)
 
 ---
