@@ -133,6 +133,15 @@ Click **"Run Simulation"** in the *Incidents* tab to simulate:
   - IT administrators  
 
 ---
+## 🤖 Development Approach
+
+AI Watchdog was developed using an AI-assisted workflow leveraging:
+
+- Google Gemini 3 Flash  
+- Google Antigravity (Version: 1.23.2) 
+
+This approach accelerated prototyping, UI iteration, and system design while maintaining full control over architecture and implementation.
+
 
 ## 🧯 Troubleshooting
 
