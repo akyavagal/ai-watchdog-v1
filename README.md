@@ -15,7 +15,7 @@ AI Watchdog v1.0 is a polished Windows desktop application designed to turn unre
 
 - **Frontend**: PowerShell + WPF (XAML)
 - **Backend**: PowerShell Modules
-- **Storage**: Local JSON (SQLite Ready)
+- **Storage**: Local JSON
 - **UI**: Premium Cyber Dark Theme
 
 ## 📦 Getting Started
