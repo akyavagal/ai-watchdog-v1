@@ -86,10 +86,6 @@ http://localhost:11434/
 
 ![Ollama Service](https://github.com/user-attachments/assets/d16cf2e0-a018-4dca-a385-caa6b12c5cd2)
 
-Verify service is running:
-
-![Ollama Models](https://github.com/user-attachments/assets/38099632-1b98-477a-a456-3dfb8dd8a3c9)
-
 ---
 
 ## ⚙️ Installation
