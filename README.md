@@ -5,11 +5,12 @@ AI Watchdog v1.0 is a polished Windows desktop application designed to turn unre
 
 ## 🚀 Core MVP Features
 
-- **Autonomous AI Intelligence**: Critical threats automatically trigger **Gemma-4** neural analysis for zero-touch remediation playbooks.
-- **Generalized Detection Engine**: Robust N-step behavioral analysis for detecting complex, multi-stage attack chains.
-- **Incremental Nitro Scans**: High-performance event processing with minimal system overhead.
-- **Executive Reporting v2**: Premium, data-rich HTML reporting with modern aesthetic.
-- **Fleet Management**: Unified monitoring of managed endpoints.
+- 🔐 Fully local, privacy-first AI inference
+- ⚡ Real-time event monitoring (Simulated)
+- 🧠 Multi-stage threat detection (behavioral patterns - Simulated)
+- 📊 Human-readable intelligence outputs
+- 🧪 Built-in attack simulation for demonstration purpose
+- 💻 Runs on standard hardware (no enterprise infra required)
 
 ## 🛠️ Tech Stack
 
